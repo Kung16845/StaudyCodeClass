@@ -1,0 +1,11 @@
+public class Convert
+{
+    private int ratio;  
+
+    public Convert(int ratio) {
+        this.ratio = ratio;
+    }
+     public int Unitconverts(int unit) {
+        return unit * this.ratio;
+    }
+}
